@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Oktay Acar" />
+  <title>Instagram Homepage Clone</title>
+
+  <!--  Font Awesome 6.6.0 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Bootstrap 5.3.3 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+  <!-- Navbar Start -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary z-1">
+    <div class="container-fluid">
+      <!-- Brand -->
+      <a class="navbar-brand ms-lg-5" href="#">
+        <img src="https://www.instagram.com/static/images/web/mobile_nav_type_logo.png/735145cfe0a4.png" />
+      </a>
+      <button class="navbar-toggler mb-2" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Search and Menu -->
+      <div class="collapse navbar-collapse bg-body-tertiary" id="navbarSupportedContent">
+        <!-- Search -->
+        <div class="d-sm-flex justify-content-sm-center ms-auto">
+          <form class="form-inline my-2 my-lg-0 ms-5">
+            <input class="form-control form-control-sm me-2 shadow-none text-center search-box" type="search"
+              placeholder="Search" aria-label="Search" />
+          </form>
+        </div>
+
+        <!-- Menu -->
+        <ul class="navbar-nav d-flex align-items-lg-center ms-auto mb-2 mb-lg-0 me-lg-5">
+          <li class="nav-item p-2 p-lg-0">
+            <a class="nav-link active" aria-current="page" href="#"><i
+                class="fa-solid fa-house fa-lg me-2 text-dark"></i>
+            </a>
+          </li>
+          <li class="nav-item p-2 p-lg-0">
+            <a class="nav-link" href="#"><i class="fa-brands fa-facebook-messenger fa-lg me-2 text-dark"></i></a>
+          </li>
+          <li class="nav-item p-2 p-lg-0">
+            <a class="nav-link" href="#"><i class="fa-regular fa-compass fa-lg me-2 text-dark"></i></a>
+          </li>
+          <li class="nav-item p-2 p-lg-0">
+            <a class="nav-link" href="#"><i class="fa-regular fa-heart fa-lg me-2 text-dark"></i></a>
+          </li>
+          <li class="nav-item p-2 p-lg-0">
+            <a class="nav-link" href="https://github.com/oktay-acar" target="_blank">
+              <img src="/assets/images/oa-profile-pic.png" class="my-1 me-2 storyphoto-3 img-fluid rounded-circle" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Middle Area Start -->
+  <div class="container vh-100 mt-2 d-sm-flex justify-content-sm-center">
+    <div class="row">
+      <!-- Left Panel -->
+      <div class="col-12 col-md-6 offset-md-1 mt-2">
+        <div class="card mt-3 mb-3">
+          <div class="card-body d-flex justify-content-center gap-1">
+            <a href="#" class="text-center">
+              <img src="https://picsum.photos/id/5/200"
+                class="storyphoto-1 img-fluid rounded-circle border border-2 border-danger" />
+              <span class="fs-12">jane</span>
+            </a>
+            <a href="#" class="text-center">
+              <img src="https://picsum.photos/id/10/200"
+                class="storyphoto-1 img-fluid rounded-circle border border-2 border-danger" />
+              <span class="fs-12">bob</span>
+            </a>
+            <a href="#" class="text-center">
+              <img src="https://picsum.photos/id/15/200"
+                class="storyphoto-1 img-fluid rounded-circle border border-2 border-danger" />
+              <span class="fs-12">jessica</span>
+            </a>
+            <a href="#" class="text-center">
+              <img src="https://picsum.photos/id/20/200"
+                class="storyphoto-1 img-fluid rounded-circle border border-2 border-danger" />
+              <span class="fs-12">michelle</span>
+            </a>
+            <a href="#" class="text-center">
+              <img src="https://picsum.photos/id/25/200"
+                class="storyphoto-1 img-fluid rounded-circle border border-2 border-danger" />
+              <span class="fs-12 me-2">charles</span>
+            </a>
+            <a href="#" class="text-center">
+              <img src="https://picsum.photos/id/30/200"
+                class="storyphoto-1 img-fluid rounded-circle border border-2 border-danger" />
+              <span class="fs-12">katherine</span>
+            </a>
+            <a href="#" class="text-center">
+              <img src="https://picsum.photos/id/35/200"
+                class="storyphoto-1 img-fluid rounded-circle border border-2 border-danger" />
+              <span class="fs-12">justin</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="card mb-3">
+          <div class="card-header d-flex align-items-center bg-white">
+            <img src="/assets/images/oa-profile-pic.png" class="storyphoto-2 img-fluid rounded-circle me-2" />
+            <span class="fs-15"><strong><a href="https://github.com/oktay-acar"
+                  target="_blank">oktay-acar</a></strong></span>
+            <span class="ms-auto mt-2"><strong><i class="fa-solid fa-ellipsis"></i></strong></span>
+          </div>
+          <img src="https://picsum.photos/id/29/400/300" alt="..." />
+          <ul class="list-group list-group-horizontal border-0 my-2 p-2" style="list-style-type: none">
+            <li class="nav-item">
+              <a class="nav-link ms-2" href="#">
+                <i class="fa-regular fa-heart fa-lg position-relative fs-4"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ms-3" href="#"><i class="fa-regular fa-comment fa-lg position-relative fs-4"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ms-3" href="#"><i
+                  class="fa-regular fa-paper-plane fa-lg position-relative fs-4"></i></a>
+            </li>
+            <span class="ms-auto pe-2">
+              <li class="nav-item ms-4">
+                <a class="nav-link ms-2" href="#"><i
+                    class="fa-regular fa-bookmark fa-lg position-relative fs-4"></i></a>
+              </li>
+            </span>
+          </ul>
+          <span>
+            <img src="https://picsum.photos/id/10/200" class="storyphoto-3 mb-1 ms-3 img-fluid rounded-circle" />
+            <span class="fs-15">50 likes</span>
+          </span>
+          <div class="card-body" style="margin-top: -15px">
+            <p class="card-text mb-2 fs-15">
+              <strong class="me-1">oktay-acar</strong>Lorem ipsum dolor sit.
+            </p>
+            <a href="#">
+              <p class="card-text text-body-tertiary fs-15">
+                View 50 more replies
+              </p>
+            </a>
+            <p class="card-text fs-15">
+              <strong class="me-1">bob</strong>Lorem, ipsum dolor sit amet consectetur adipisicing.
+            </p>
+            <p class="card-text fs-15" style="margin-top: -15px">
+              <strong class="me-1">jessica</strong>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Modi!.
+            </p>
+            <p class="card-text text-body-tertiary fs-12">14h</p>
+
+          </div>
+          <div class="card-footer d-flex bg-white fs-14">
+            <div class="input-group">
+              <input type="text" class="form-control border-0 shadow-none" placeholder="Add a comment..."
+                aria-label="Add a comment..." aria-describedby="button-addon2" />
+              <button class="btn border-0 text-primary fw-bold" type="button" id="button-addon2">
+                Post
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3">
+          <div class="card-header d-flex align-items-center bg-white">
+            <img src="https://picsum.photos/id/5/200" class="storyphoto-2 img-fluid rounded-circle me-2" />
+            <span class="fs-15"><strong>jane</strong></span>
+            <span class="ms-auto mt-2"><strong><i class="fa-solid fa-ellipsis"></i></strong></span>
+          </div>
+          <img src="https://picsum.photos/id/30/400/300" alt="..." />
+          <ul class="list-group list-group-horizontal border-0 my-2 p-2" style="list-style-type: none">
+            <li class="nav-item">
+              <a class="nav-link ms-2" href="#">
+                <i class="fa-regular fa-heart fa-lg position-relative fs-4"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ms-3" href="#"><i class="fa-regular fa-comment fa-lg position-relative fs-4"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ms-3" href="#"><i
+                  class="fa-regular fa-paper-plane fa-lg position-relative fs-4"></i></a>
+            </li>
+            <span class="ms-auto pe-2">
+              <li class="nav-item ms-4">
+                <a class="nav-link ms-2" href="#"><i
+                    class="fa-regular fa-bookmark fa-lg position-relative fs-4"></i></a>
+              </li>
+            </span>
+          </ul>
+          <span>
+            <img src="/assets/images/oa-profile-pic.png" class="storyphoto-3 mb-1 ms-3 img-fluid rounded-circle" />
+            <span class="fs-15">100 likes</span>
+          </span>
+          <div class="card-body" style="margin-top: -15px">
+            <p class="card-text mb-2 fs-15">
+              <strong class="me-1">jane</strong>Lorem, ipsum dolor.
+            </p>
+            <a href="#">
+              <p class="card-text text-body-tertiary fs-15">
+                View 500 more replies
+              </p>
+            </a>
+            <p class="card-text fs-15">
+              <strong class="me-1">oktay-acar</strong>Lorem ipsum dolor sit amet consectetur adipisicing.
+            </p>
+            <p class="card-text fs-15" style="margin-top: -15px">
+              <strong class="me-1">charles</strong>Lorem, ipsum.
+            </p>
+            <p class="card-text text-body-tertiary fs-12">14h</p>
+          </div>
+          <div class="card-footer d-flex bg-white fs-14">
+            <div class="input-group">
+              <input type="text" class="form-control border-0 shadow-none" placeholder="Add a comment..."
+                aria-label="Add a comment..." aria-describedby="button-addon2" />
+              <button class="btn border-0 text-primary fw-bold" type="button" id="button-addon2">
+                Post
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-5">
+          <div class="card-header d-flex align-items-center bg-white">
+            <img src="https://picsum.photos/id/15/200" class="storyphoto-2 img-fluid rounded-circle me-2" />
+            <span class="fs-15"><strong>jessica</strong></span>
+            <span class="ms-auto mt-2"><strong><i class="fa-solid fa-ellipsis"></i></strong></span>
+          </div>
+          <img src="https://picsum.photos/id/70/400/300" alt="..." />
+          <ul class="list-group list-group-horizontal border-0 my-2 p-2" style="list-style-type: none">
+            <li class="nav-item">
+              <a class="nav-link ms-2" href="#"></a>
+              <i class="fa-regular fa-heart fa-lg position-relative fs-4"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ms-3" href="#"><i class="fa-regular fa-comment fa-lg position-relative fs-4"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link ms-3" href="#"><i
+                  class="fa-regular fa-paper-plane fa-lg position-relative fs-4"></i></a>
+            </li>
+            <span class="ms-auto pe-2">
+              <li class="nav-item ms-4">
+                <a class="nav-link ms-2" href="#"><i
+                    class="fa-regular fa-bookmark fa-lg position-relative fs-4"></i></a>
+              </li>
+            </span>
+          </ul>
+          <span>
+            <img src="/assets/images/oa-profile-pic.png" class="storyphoto-3 mb-1 ms-3 img-fluid rounded-circle" />
+            <span class="fs-15">500 likes</span>
+          </span>
+          <div class="card-body" style="margin-top: -15px">
+            <p class="card-text mb-2 fs-15">
+              <strong class="me-1">michelle</strong>Lorem ipsum dolor sit amet consectetur.
+            </p>
+            <a href="#">
+              <p class="card-text text-body-tertiary fs-15">
+                View 1,000 more replies
+              </p>
+            </a>
+            <p class="card-text fs-15">
+              <strong class="me-1">oktay-acar</strong>Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            </p>
+            <p class="card-text fs-15" style="margin-top: -15px">
+              <strong class="me-1">spacex</strong>Lorem ipsum dolor sit amet.
+            </p>
+            <p class="card-text text-body-tertiary fs-12">14h</p>
+          </div>
+          <div class="card-footer d-flex bg-white fs-14">
+            <div class="input-group">
+              <input type="text" class="form-control border-0 shadow-none" placeholder="Add a comment..."
+                aria-label="Add a comment..." aria-describedby="button-addon2" />
+              <button class="btn border-0 text-primary fw-bold" type="button" id="button-addon2">
+                Post
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Panel -->
+      <div class="col-12 col-md-5 mt-2">
+        <div class="card border-0 position-sticky" style="top: 50px">
+          <div class="card-body d-flex">
+            <div class="row">
+              <div class="col-12">
+                <a class="nav-link mt-2" href="https://github.com/oktay-acar" target="_blank">
+                  <span><img src="/assets/images/oa-profile-pic.png"
+                      class="storyphoto-1 img-fluid rounded-circle border border-2 border-danger" />
+                    <span class="fs-15 ms-3"><strong>oktay-acar</strong>
+                    </span>
+                  </span>
+                </a>
+              </div>
+
+              <div class="col-12 mt-2">
+                <span class="mt-5 text-body-tertiary fs-15">Suggested for you</span>
+                <span class="fs-15 mt-1" style="float: right; font-size: 12px"><a href="#"><strong>See
+                      all</strong></a></span>
+              </div>
+
+              <div class="col-12 m-3 ms-2">
+                <div>
+                  <span><img src="https://picsum.photos/id/110/200" class="storyphoto-4 img-fluid rounded-circle" />
+                  </span>
+                  <a href="#" class="ms-2 mt-1 fs-15">
+                    <span><strong>maria</strong></span>
+                    <span class="float-end text-primary fs-13"><strong>Follow</strong></span>
+                  </a>
+                </div>
+                <div class="mt-3">
+                  <span><img src="https://picsum.photos/id/120/200" class="storyphoto-4 img-fluid rounded-circle" />
+                  </span>
+                  <a href="#" class="ms-2 mt-1 fs-15">
+                    <span><strong>victor</strong></span>
+                    <span class="float-end text-primary fs-13"><strong>Follow</strong></span>
+                  </a>
+                </div>
+
+                <div class="mt-3">
+                  <span><img src="https://picsum.photos/id/130/200" class="storyphoto-4 img-fluid rounded-circle" />
+                  </span>
+                  <a href="#" class="ms-2 mt-1 fs-15">
+                    <span><strong>sally</strong></span>
+                    <span class="float-end text-primary fs-13"><strong>Follow</strong></span>
+                  </a>
+                </div>
+
+                <div class="mt-3">
+                  <span><img src="https://picsum.photos/id/140/200" class="storyphoto-4 img-fluid rounded-circle" />
+                  </span>
+                  <a href="#" class="ms-2 mt-1 fs-15">
+                    <span><strong>dylan</strong></span>
+                    <span class="float-end text-primary fs-13"><strong>Follow</strong></span>
+                  </a>
+                </div>
+
+                <div class="mt-3">
+                  <span><img src="https://picsum.photos/id/160/200" class="storyphoto-4 img-fluid rounded-circle" />
+                  </span>
+                  <a href="#" class="ms-2 mt-1 fs-15">
+                    <span><strong>frank</strong></span>
+                    <span class="float-end text-primary fs-13"><strong>Follow</strong></span>
+                  </a>
+                </div>
+              </div>
+
+              <div class="ms-2 m-2 text-center d-flex flex-column justify-content-between fs-11">
+                <span>
+                  <a href="#" class="text-body-tertiary me-2">Meta</a>
+                  <a href="#" class="text-body-tertiary me-2">About</a>
+                  <a href="#" class="text-body-tertiary me-2">Blog</a>
+                  <a href="#" class="text-body-tertiary me-2">Jobs</a>
+                  <a href="#" class="text-body-tertiary me-2">Help</a>
+                  <a href="#" class="text-body-tertiary me-2">API</a>
+                  <a href="#" class="text-body-tertiary me-2">Privacy</a>
+                  <a href="#" class="text-body-tertiary me-2">Terms</a>
+                  <a href="#" class="text-body-tertiary me-2">Locations</a>
+                  <a href="#" class="text-body-tertiary me-2">Instagram Lite</a>
+                  <a href="#" class="text-body-tertiary me-2">Threads</a>
+                  <a href="#" class="text-body-tertiary me-2">Contact Uploading & Non-Users</a>
+                  <a href="#" class="text-body-tertiary me-2">Meta Verified</a>
+                  <a href="#" class="text-body-tertiary me-2">English</a>
+                  <a href="#" class="text-body-tertiary me-2">
+                    <div class="btn-group">
+                      <button class="btn btn-sm dropdown-toggle border-0 shadow-none text-body-tertiary px-0 pt-0 fs-11"
+                        type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Language
+                      </button>
+                      <ul class="dropdown-menu fs-11">
+                        <li>Language 1</li>
+                        <li>Language 2</li>
+                        <li>Language 3</li>
+                        <li>...</li>
+                        <li>...</li>
+                      </ul>
+                    </div>
+                  </a>
+                </span>
+                <p class="text-body-tertiary me-2 mt-2">
+                  © 2024 Instagram from Meta
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Middle Area End -->
+
+  <!-- Bootstrap 5.3.3 Bundle (includes Popper) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
